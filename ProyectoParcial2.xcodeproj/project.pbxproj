@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DC0C2E928EC8E24006F1CCE /* ArtistasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0C2E828EC8E24006F1CCE /* ArtistasController.swift */; };
+		3DC0C2EB28EC8FE5006F1CCE /* Artista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0C2EA28EC8FE5006F1CCE /* Artista.swift */; };
+		3DC0C2ED28EC9268006F1CCE /* CeldaArtistaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0C2EC28EC9268006F1CCE /* CeldaArtistaController.swift */; };
 		3DC6B6FC28E5F32D00546296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6B6FB28E5F32D00546296 /* AppDelegate.swift */; };
 		3DC6B6FE28E5F32D00546296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6B6FD28E5F32D00546296 /* ViewController.swift */; };
 		3DC6B70128E5F32D00546296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC6B6FF28E5F32D00546296 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DC0C2E828EC8E24006F1CCE /* ArtistasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistasController.swift; sourceTree = "<group>"; };
+		3DC0C2EA28EC8FE5006F1CCE /* Artista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artista.swift; sourceTree = "<group>"; };
+		3DC0C2EC28EC9268006F1CCE /* CeldaArtistaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaArtistaController.swift; sourceTree = "<group>"; };
 		3DC6B6F828E5F32D00546296 /* ProyectoParcial2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoParcial2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC6B6FB28E5F32D00546296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DC6B6FD28E5F32D00546296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				3DC6B70228E5F33700546296 /* Assets.xcassets */,
 				3DC6B70428E5F33700546296 /* LaunchScreen.storyboard */,
 				3DC6B70728E5F33700546296 /* Info.plist */,
+				3DC0C2E828EC8E24006F1CCE /* ArtistasController.swift */,
+				3DC0C2EA28EC8FE5006F1CCE /* Artista.swift */,
+				3DC0C2EC28EC9268006F1CCE /* CeldaArtistaController.swift */,
 			);
 			path = ProyectoParcial2;
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DC0C2ED28EC9268006F1CCE /* CeldaArtistaController.swift in Sources */,
+				3DC0C2EB28EC8FE5006F1CCE /* Artista.swift in Sources */,
 				3DC6B6FE28E5F32D00546296 /* ViewController.swift in Sources */,
+				3DC0C2E928EC8E24006F1CCE /* ArtistasController.swift in Sources */,
 				3DC6B6FC28E5F32D00546296 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
