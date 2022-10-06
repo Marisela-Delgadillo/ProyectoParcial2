@@ -35,17 +35,20 @@ class ArtistasController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         
         artistas.append(Artista(nombre: "Girl in Red", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "girlinred"))
-        artistas.append(Artista(nombre: "Clairo", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "clairo"))
+        artistas.append(Artista(nombre: "Clairo", genero: "lo-fi, pop alternativo, pop barroco, indie pop, indie rock, folk y folk rock", edad: "24 años", icon: "clairo"))
         artistas.append(Artista(nombre: "Bad Bunny", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "badbunny"))
         artistas.append(Artista(nombre: "Danny Ocean", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "dannyocean"))
         artistas.append(Artista(nombre: "Dua Lipa", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "dualipa"))
         artistas.append(Artista(nombre: "Billie Eilish", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "billieeilish"))
         artistas.append(Artista(nombre: "Still Woozy", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "stillwoozy"))
         artistas.append(Artista(nombre: "Tame Impala", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "tameimpala"))
-        artistas.append(Artista(nombre: "Apricot Ink", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "joji"))
-        artistas.append(Artista(nombre: "Joji", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "tameimpala"))
+        artistas.append(Artista(nombre: "Katy Perry", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "katyperry"))
+        artistas.append(Artista(nombre: "Vance Joy", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "vancejoy"))
+        artistas.append(Artista(nombre: "Joji", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "joji"))
         artistas.append(Artista(nombre: "Lauren Jauregui", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "laurenjauregui"))
         artistas.append(Artista(nombre: "Taylor Swift", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "taylorswift"))
+        artistas.append(Artista(nombre: "Halsey", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "halsey"))
+        artistas.append(Artista(nombre: "Miley Cyrus", genero: "Indie pop, Bedroom pop, Indie rock", edad: "23 años", icon: "mileycyrus"))
     }
     
     
