@@ -13,7 +13,6 @@
         <!--Artistas-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ArtistasController" customModule="ProyectoParcial2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -79,16 +78,18 @@
                     </view>
                     <navigationItem key="navigationItem" title="Artistas" id="dor-8b-H8j"/>
                     <connections>
+                        <outlet property="tvArtista" destination="t8S-Bv-Ysu" id="HtX-9I-YmI"/>
                         <segue destination="lzN-5K-URA" kind="show" id="PF1-bT-fGV"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="176.81159420289856" y="121.875"/>
         </scene>
-        <!--View Controller-->
+        <!--Detalles Artista-->
         <scene sceneID="LFL-Bl-zJN">
             <objects>
-                <viewController id="lzN-5K-URA" sceneMemberID="viewController">
+                <viewController id="lzN-5K-URA" customClass="DetallesArtista" customModule="ProyectoParcial2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UWe-Jw-3le">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -98,7 +99,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="66" id="7KT-TI-9la">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="66" id="7KT-TI-9la" customClass="CeldaCancionController" customModule="ProyectoParcial2" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="422" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7KT-TI-9la" id="HF6-bD-mVi">
@@ -119,8 +120,16 @@
                                             </subviews>
                                             <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imgPortada" destination="yRy-pp-gBW" id="xM4-fk-whL"/>
+                                            <outlet property="lblCancion" destination="ixa-Ey-mgM" id="0eW-Hf-eHh"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="lzN-5K-URA" id="O7V-4N-q8u"/>
+                                    <outlet property="delegate" destination="lzN-5K-URA" id="x3C-lY-MGb"/>
+                                </connections>
                             </tableView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="girlinred" translatesAutoresizingMaskIntoConstraints="NO" id="T5m-5D-8ms">
                                 <rect key="frame" x="0.0" y="88" width="414" height="229"/>
@@ -161,8 +170,8 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seudónomo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yta-6O-I4k">
-                                <rect key="frame" x="80" y="446" width="77" height="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seudónimo:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yta-6O-I4k">
+                                <rect key="frame" x="80" y="446" width="72" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -242,6 +251,16 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="ZRa-sI-OlR"/>
                     </view>
+                    <connections>
+                        <outlet property="lblFecha" destination="zJc-P1-VGM" id="7eo-vz-nfI"/>
+                        <outlet property="lblGenero" destination="Gor-YX-w9S" id="7GE-zw-AfK"/>
+                        <outlet property="lblInstrumentos" destination="7RQ-2s-i5C" id="VuT-rc-bEi"/>
+                        <outlet property="lblNacionalidad" destination="Hqx-wp-BZk" id="YJA-iK-8mp"/>
+                        <outlet property="lblNombre" destination="Pei-aU-uH9" id="356-yC-4vc"/>
+                        <outlet property="lblNombreTitulo" destination="xUl-97-aj2" id="kLd-jn-Lr3"/>
+                        <outlet property="lblOcupacion" destination="Tjf-IJ-ux4" id="9Bf-gB-XhY"/>
+                        <outlet property="lblSeudo" destination="tQH-vh-LlX" id="lNZ-3g-r4v"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2R0-3e-ZWG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

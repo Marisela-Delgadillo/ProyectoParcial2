@@ -7,16 +7,30 @@
 //
 
 class Artista {
-    var nombre: String
+    var nombretitulo : String
+    var nombre : String
+    var nacimiento : String
+    var nacionalidad : String
+    var ocupacion : String
+    var seudo : String
     var genero: String
+    var instrumentos : String
     var edad: String
     var icon: String
+    //var canciones : [Cancion]
     
-    init(nombre: String, genero: String, edad: String, icon: String){
+    init(nombretitulo: String,nombre: String, nacimiento: String, nacionalidad: String, ocupacion : String, seudo : String,  genero: String, instrumentos: String, edad: String, icon: String){
+    self.nombretitulo = nombre
     self.nombre = nombre
+    self.nacimiento = nacimiento
+    self.nacionalidad = nacionalidad
+    self.ocupacion = ocupacion
+    self.seudo = seudo
     self.genero = genero
+    self.instrumentos = instrumentos
     self.edad = edad
     self.icon = icon
+    //self.canciones = canciones
         
     }
 }

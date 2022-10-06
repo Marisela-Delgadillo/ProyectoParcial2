@@ -10,4 +10,6 @@ import UIKit
 
 class CeldaCancionController : UITableViewCell {
     
+    @IBOutlet weak var lblCancion: UILabel!
+    @IBOutlet weak var imgPortada: UIImageView!
 }
