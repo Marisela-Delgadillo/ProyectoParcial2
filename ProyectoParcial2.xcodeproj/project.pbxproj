@@ -17,6 +17,9 @@
 		3DC6B70628E5F33700546296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC6B70428E5F33700546296 /* LaunchScreen.storyboard */; };
 		3DC6B71128E5F33700546296 /* ProyectoParcial2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6B71028E5F33700546296 /* ProyectoParcial2Tests.swift */; };
 		3DC6B71C28E5F33700546296 /* ProyectoParcial2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6B71B28E5F33700546296 /* ProyectoParcial2UITests.swift */; };
+		3DC6C31128EF27700040265E /* DetallesArtista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6C31028EF27700040265E /* DetallesArtista.swift */; };
+		3DC6C31328EF2AC00040265E /* CeldaCancionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6C31228EF2AC00040265E /* CeldaCancionController.swift */; };
+		3DC6C31528EF2AF00040265E /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6C31428EF2AF00040265E /* Cancion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		3DC6B71728E5F33700546296 /* ProyectoParcial2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProyectoParcial2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC6B71B28E5F33700546296 /* ProyectoParcial2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoParcial2UITests.swift; sourceTree = "<group>"; };
 		3DC6B71D28E5F33700546296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC6C31028EF27700040265E /* DetallesArtista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesArtista.swift; sourceTree = "<group>"; };
+		3DC6C31228EF2AC00040265E /* CeldaCancionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaCancionController.swift; sourceTree = "<group>"; };
+		3DC6C31428EF2AF00040265E /* Cancion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 				3DC0C2E828EC8E24006F1CCE /* ArtistasController.swift */,
 				3DC0C2EA28EC8FE5006F1CCE /* Artista.swift */,
 				3DC0C2EC28EC9268006F1CCE /* CeldaArtistaController.swift */,
+				3DC6C31028EF27700040265E /* DetallesArtista.swift */,
+				3DC6C31228EF2AC00040265E /* CeldaCancionController.swift */,
+				3DC6C31428EF2AF00040265E /* Cancion.swift */,
 			);
 			path = ProyectoParcial2;
 			sourceTree = "<group>";
@@ -267,9 +276,12 @@
 			files = (
 				3DC0C2ED28EC9268006F1CCE /* CeldaArtistaController.swift in Sources */,
 				3DC0C2EB28EC8FE5006F1CCE /* Artista.swift in Sources */,
+				3DC6C31128EF27700040265E /* DetallesArtista.swift in Sources */,
+				3DC6C31528EF2AF00040265E /* Cancion.swift in Sources */,
 				3DC6B6FE28E5F32D00546296 /* ViewController.swift in Sources */,
 				3DC0C2E928EC8E24006F1CCE /* ArtistasController.swift in Sources */,
 				3DC6B6FC28E5F32D00546296 /* AppDelegate.swift in Sources */,
+				3DC6C31328EF2AC00040265E /* CeldaCancionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
