@@ -17,9 +17,10 @@ class Artista {
     var instrumentos : String
     var edad: String
     var icon: String
-    //var canciones : [Cancion]
     
-    init(nombretitulo: String,nombre: String, nacimiento: String, nacionalidad: String, ocupacion : String, seudo : String,  genero: String, instrumentos: String, edad: String, icon: String){
+    var canciones : [Cancion]
+    
+    init(nombretitulo: String,nombre: String, nacimiento: String, nacionalidad: String, ocupacion : String, seudo : String,  genero: String, instrumentos: String, edad: String, icon: String, canciones: [Cancion]){
     self.nombretitulo = nombre
     self.nombre = nombre
     self.nacimiento = nacimiento
@@ -30,7 +31,7 @@ class Artista {
     self.instrumentos = instrumentos
     self.edad = edad
     self.icon = icon
-    //self.canciones = canciones
+    self.canciones = canciones
         
     }
 }

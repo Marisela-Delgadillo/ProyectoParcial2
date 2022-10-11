@@ -28,6 +28,8 @@ class DetallesArtista : UIViewController, UITableViewDelegate, UITableViewDataSo
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let celda = tableView.dequeueReusableCell(withIdentifier: "celdaCancion") as! CeldaCancionController
         celda.lblCancion.text = artista!.canciones[indexPath.row].cancion
+        celda.imgPortada.image = UIImage(named: artista!.canciones[indexPath.row].portada)
+        
         //celda.imgPortada.image = UIImage(named: cancion![indexPath.row]!.portada)
         //celda.imgPortada.image = UIImage(named: canciones![indexPath.row]!.portada)
         return celda
@@ -42,6 +44,7 @@ class DetallesArtista : UIViewController, UITableViewDelegate, UITableViewDataSo
     @IBOutlet weak var lblGenero: UILabel!
     @IBOutlet weak var lblInstrumentos: UILabel!
     
+    @IBOutlet weak var tvCanciones: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

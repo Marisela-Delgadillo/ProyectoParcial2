@@ -64,6 +64,7 @@
                                             <outlet property="lblEdad" destination="9Kp-YL-W4L" id="3Gv-Us-Hig"/>
                                             <outlet property="lblGenero" destination="9Kp-YL-W4L" id="aOc-Px-wBH"/>
                                             <outlet property="lblNombre" destination="toY-qP-CYX" id="8wh-Uk-FZx"/>
+                                            <segue destination="lzN-5K-URA" kind="show" id="gPO-sm-euq"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -79,7 +80,6 @@
                     <navigationItem key="navigationItem" title="Artistas" id="dor-8b-H8j"/>
                     <connections>
                         <outlet property="tvArtista" destination="t8S-Bv-Ysu" id="HtX-9I-YmI"/>
-                        <segue destination="lzN-5K-URA" kind="show" id="PF1-bT-fGV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -99,7 +99,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="66" id="7KT-TI-9la" customClass="CeldaCancionController" customModule="ProyectoParcial2" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="celdaCancion" rowHeight="66" id="7KT-TI-9la" customClass="CeldaCancionController" customModule="ProyectoParcial2" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="422" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7KT-TI-9la" id="HF6-bD-mVi">
@@ -260,6 +260,7 @@
                         <outlet property="lblNombreTitulo" destination="xUl-97-aj2" id="kLd-jn-Lr3"/>
                         <outlet property="lblOcupacion" destination="Tjf-IJ-ux4" id="9Bf-gB-XhY"/>
                         <outlet property="lblSeudo" destination="tQH-vh-LlX" id="lNZ-3g-r4v"/>
+                        <outlet property="tvCanciones" destination="dpx-cO-RM9" id="hz9-VX-bLr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2R0-3e-ZWG" userLabel="First Responder" sceneMemberID="firstResponder"/>
