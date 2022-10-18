@@ -44,6 +44,7 @@ class DetallesArtista : UIViewController, UITableViewDelegate, UITableViewDataSo
     @IBOutlet weak var lblGenero: UILabel!
     @IBOutlet weak var lblInstrumentos: UILabel!
     
+    @IBOutlet weak var imgFoto: UIImageView!
     @IBOutlet weak var tvCanciones: UITableView!
     
     override func viewDidLoad() {
@@ -51,6 +52,7 @@ class DetallesArtista : UIViewController, UITableViewDelegate, UITableViewDataSo
         
         if artista != nil{
             self.title = artista!.nombre
+            imgFoto.image = UIImage(named: artista!.foto)
             lblNombreTitulo.text = artista!.nombretitulo
             lblNombre.text = artista!.nombre
             lblFecha.text = artista!.nacimiento

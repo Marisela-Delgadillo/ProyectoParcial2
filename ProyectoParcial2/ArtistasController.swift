@@ -46,6 +46,8 @@ class ArtistasController: UIViewController, UITableViewDelegate, UITableViewData
         celda.lblEdad.text = artistas[indexPath.row].edad
         celda.lblGenero.text = artistas[indexPath.row].genero
         celda.imgIcon.image = UIImage(named: artistas[indexPath.row].icon)
+        celda.imgIcon.layer.cornerRadius = 15
+        celda.imgIcon.clipsToBounds = true
         
         return celda
     }
@@ -60,17 +62,17 @@ class ArtistasController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         
         //aqui ya son los 5 de prueba
-        cancion1.append(Cancion(cancion: "We fell in love in october", portada: "girlinred"))
-        cancion1.append(Cancion(cancion: "I wanna be your girlfriend", portada: "girlinred"))
-        cancion1.append(Cancion(cancion: "Midnight love", portada: "girlinred"))
-        cancion1.append(Cancion(cancion: "Summer depression", portada: "girlinred"))
-        cancion1.append(Cancion(cancion: "Rue", portada: "girlinred"))
+        cancion1.append(Cancion(cancion: "We fell in love in october", portada: "girlinred-album2"))
+        cancion1.append(Cancion(cancion: "I wanna be your girlfriend", portada: "girlinred-album"))
+        cancion1.append(Cancion(cancion: "Midnight love", portada: "girlinred-album3"))
+        cancion1.append(Cancion(cancion: "Summer depression", portada: "girlinred-album2"))
+        cancion1.append(Cancion(cancion: "Rue", portada: "girlinred-album3"))
         
-        cancion2.append(Cancion(cancion: "Bags", portada: "girlinred"))
-        cancion2.append(Cancion(cancion: "Sofia", portada: "girlinred"))
-        cancion2.append(Cancion(cancion: "Pretty Girl", portada: "girlinred"))
-        cancion2.append(Cancion(cancion: "Flammin Hot Cheetos", portada: "girlinred"))
-        cancion2.append(Cancion(cancion: "Bubble Gum", portada: "girlinred"))
+        cancion2.append(Cancion(cancion: "Bags", portada: "clairo-album"))
+        cancion2.append(Cancion(cancion: "Sofia", portada: "clairo-album2"))
+        cancion2.append(Cancion(cancion: "Pretty Girl", portada: "clairo-album2"))
+        cancion2.append(Cancion(cancion: "Flammin Hot Cheetos", portada: "clairo-album3"))
+        cancion2.append(Cancion(cancion: "Bubble Gum", portada: "clairo-album1"))
         
         cancion3.append(Cancion(cancion: "A tu merced", portada: "badbunny"))
         cancion3.append(Cancion(cancion: "Una vez", portada: "badbunny"))
@@ -152,35 +154,35 @@ class ArtistasController: UIViewController, UITableViewDelegate, UITableViewData
         
         
         
-        artistas.append(Artista(nombretitulo: "Girl in Red", nombre: "Marie Ulven Ringheim", nacimiento: "16 de febrero de 1999 Ver y modificar los datos en Wikidata (23 años)", nacionalidad: "Noruega", ocupacion: "Cantautora, guitarrista, productora", seudo: "Girl in Red", genero: "Indie pop, Bedroom pop, Indie rock", instrumentos: "Voz, guitarra",  edad: "23 años", icon: "girlinred", canciones: cancion1))
+        artistas.append(Artista(nombretitulo: "Girl in Red", nombre: "Marie Ulven Ringheim", nacimiento: "16 de febrero de 1999 Ver y modificar los datos en Wikidata (23 años)", nacionalidad: "Noruega", ocupacion: "Cantautora, guitarrista, productora", seudo: "Girl in Red", genero: "Indie pop, Bedroom pop, Indie rock", instrumentos: "Voz, guitarra",  edad: "23 años", icon: "girlinred", foto: "girlinred", canciones: cancion1))
         
-        artistas.append(Artista(nombretitulo: "Clairo", nombre: "Claire Elizabeth Cottrill", nacimiento: "18 de agosto de 1998 (24 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora", seudo: "DJ Baby Benz", genero: "lo-fi, pop alternativo, pop barroco, indie pop, indie rock, folk y folk rock", instrumentos: "Voz, guitarra, teclado", edad: "24 años", icon: "clairo", canciones: cancion2))
+        artistas.append(Artista(nombretitulo: "Clairo", nombre: "Claire Elizabeth Cottrill", nacimiento: "18 de agosto de 1998 (24 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora", seudo: "DJ Baby Benz", genero: "lo-fi, pop alternativo, pop barroco, indie pop, indie rock, folk y folk rock", instrumentos: "Voz, guitarra, teclado", edad: "24 años", icon: "clairo", foto: "clairo", canciones: cancion2))
         
-        artistas.append(Artista(nombretitulo: "Bad Bunny", nombre: "Benito Antonio Martínez Ocasio", nacimiento: "10 de marzo de 1994 (28 años)", nacionalidad: "Puertorriqueño", ocupacion: "Rapero, cantante, productor discográfico, compositor de canciones y actor", seudo: "Bad Bunny", genero: "Trap, reguetón, hip hop, rap, dembow, dancehall", instrumentos: "zxx",  edad: "28 años", icon: "badbunny", canciones: cancion3))
+        artistas.append(Artista(nombretitulo: "Bad Bunny", nombre: "Benito Antonio Martínez Ocasio", nacimiento: "10 de marzo de 1994 (28 años)", nacionalidad: "Puertorriqueño", ocupacion: "Rapero, cantante, productor discográfico, compositor de canciones y actor", seudo: "Bad Bunny", genero: "Trap, reguetón, hip hop, rap, dembow, dancehall", instrumentos: "zxx",  edad: "28 años", icon: "badbunny", foto: "badbunny", canciones: cancion3))
         
-        artistas.append(Artista(nombretitulo: "Danny Ocean", nombre: "Daniel Alejandro Morales Reyes", nacimiento: "5 de mayo de 1992 (30 años)", nacionalidad: "Venezonala", ocupacion: "Cantautor, productor, diseñador gráfico", seudo: "Danny Ocean", genero: "Pop latino, dancehall, moombahton, reggaeton", instrumentos: "Voz, guitarra, piano", edad: "30 años", icon: "dannyocean", canciones: cancion4))
+        artistas.append(Artista(nombretitulo: "Danny Ocean", nombre: "Daniel Alejandro Morales Reyes", nacimiento: "5 de mayo de 1992 (30 años)", nacionalidad: "Venezonala", ocupacion: "Cantautor, productor, diseñador gráfico", seudo: "Danny Ocean", genero: "Pop latino, dancehall, moombahton, reggaeton", instrumentos: "Voz, guitarra, piano", edad: "30 años", icon: "dannyocean", foto: "dannyocean", canciones: cancion4))
         
-        artistas.append(Artista(nombretitulo: "Dua Lipa", nombre: "Dua Lipa", nacimiento: "22 de agosto de 1995 (27 años)", nacionalidad: "Británica", ocupacion: "Cantautora, modelo, diseñadora, actriz", seudo: "Dua Lipa", genero: "Pop, electro pop, disco", instrumentos: "Voz", edad: "27 años", icon: "dualipa",canciones: cancion5))
+        artistas.append(Artista(nombretitulo: "Dua Lipa", nombre: "Dua Lipa", nacimiento: "22 de agosto de 1995 (27 años)", nacionalidad: "Británica", ocupacion: "Cantautora, modelo, diseñadora, actriz", seudo: "Dua Lipa", genero: "Pop, electro pop, disco", instrumentos: "Voz", edad: "27 años", icon: "dualipa", foto: "dualipa",canciones: cancion5))
         
-        artistas.append(Artista(nombretitulo: "Billie Eilish", nombre: "Billie Eilish Pirate Baird O'Connell", nacimiento: "18 de diciembre de 2001 (20 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora", seudo: "Billie Eilish", genero: "Pop alternativo, electropop, indie pop, art pop", instrumentos: "Voz, ukelele, guitarra, piano", edad: "20 años", icon: "billieeilish",canciones: cancion6))
+        artistas.append(Artista(nombretitulo: "Billie Eilish", nombre: "Billie Eilish Pirate Baird O'Connell", nacimiento: "18 de diciembre de 2001 (20 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora", seudo: "Billie Eilish", genero: "Pop alternativo, electropop, indie pop, art pop", instrumentos: "Voz, ukelele, guitarra, piano", edad: "20 años", icon: "billieeilish", foto: "billieeilish",canciones: cancion6))
         
-        artistas.append(Artista(nombretitulo: "Still Woozy", nombre: "Sven Eric Gamsky", nacimiento: "23 de junio de 1992 (30 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautor", seudo: "Still Woozy", genero: "Indie pop, Bedroom pop", instrumentos: "Voz", edad: "30 años", icon: "stillwoozy", canciones: cancion7))
+        artistas.append(Artista(nombretitulo: "Still Woozy", nombre: "Sven Eric Gamsky", nacimiento: "23 de junio de 1992 (30 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautor", seudo: "Still Woozy", genero: "Indie pop, Bedroom pop", instrumentos: "Voz", edad: "30 años", icon: "stillwoozy", foto: "stillwoozy", canciones: cancion7))
         
-        artistas.append(Artista(nombretitulo: "Katy Perry", nombre: "Katheryn Elizabeth Hudson", nacimiento: "25 de octubre de 1984 (37 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora, empresaria, actriz", seudo: "Katy Perry", genero: "Pop, Pop-Rock, Disco, Electropop, Dance pop", instrumentos: "zxx", edad: "28 años", icon: "harrystyles", canciones: cancion8))
+        artistas.append(Artista(nombretitulo: "Katy Perry", nombre: "Katheryn Elizabeth Hudson", nacimiento: "25 de octubre de 1984 (37 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora, empresaria, actriz", seudo: "Katy Perry", genero: "Pop, Pop-Rock, Disco, Electropop, Dance pop", instrumentos: "zxx", edad: "28 años", icon: "katyperry", foto: "katyperry", canciones: cancion8))
         
-        artistas.append(Artista(nombretitulo: "Vance Joy", nombre: "James Gabriel Keogh", nacimiento: "1 de diciembre de 1987 (34 años)", nacionalidad: "Australiana", ocupacion: "Cantautor", seudo: "Vance Joy", genero: "ndie pop, indie folk", instrumentos: "Voz, guitarra, ukulele, piano", edad: "34 años", icon: "vancejoy", canciones: cancion9))
+        artistas.append(Artista(nombretitulo: "Vance Joy", nombre: "James Gabriel Keogh", nacimiento: "1 de diciembre de 1987 (34 años)", nacionalidad: "Australiana", ocupacion: "Cantautor", seudo: "Vance Joy", genero: "ndie pop, indie folk", instrumentos: "Voz, guitarra, ukulele, piano", edad: "34 años", icon: "vancejoy", foto: "vancejoy", canciones: cancion9))
         
-        artistas.append(Artista(nombretitulo: "Joji", nombre: "George Kusunoki Miller", nacimiento: "18 de septiembre de 1992 (30 años)", nacionalidad: "Australiana y japonesa", ocupacion: "Cantautor", seudo: "Joji", genero: "Trip hop, Música Lo-Fi, indie rock, rock alternativo y Pop Trash", instrumentos: "Voz", edad: "30 años", icon: "joji", canciones: cancion10))
+        artistas.append(Artista(nombretitulo: "Joji", nombre: "George Kusunoki Miller", nacimiento: "18 de septiembre de 1992 (30 años)", nacionalidad: "Australiana y japonesa", ocupacion: "Cantautor", seudo: "Joji", genero: "Trip hop, Música Lo-Fi, indie rock, rock alternativo y Pop Trash", instrumentos: "Voz", edad: "30 años", icon: "joji", foto: "joji", canciones: cancion10))
         
-        artistas.append(Artista(nombretitulo: "Lauren Jauregui", nombre: "Lauren Michelle Jauregui Morgado", nacimiento: "27 de junio de 1996 (26 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora", seudo: "Lauren Jauregui", genero: "Pop y R&B contemporáneo", instrumentos: "Voz", edad: "26 años", icon: "laurenjauregui", canciones: cancion11))
+        artistas.append(Artista(nombretitulo: "Lauren Jauregui", nombre: "Lauren Michelle Jauregui Morgado", nacimiento: "27 de junio de 1996 (26 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora", seudo: "Lauren Jauregui", genero: "Pop y R&B contemporáneo", instrumentos: "Voz", edad: "26 años", icon: "laurenjauregui", foto: "laurenjauregui", canciones: cancion11))
         
-        artistas.append(Artista(nombretitulo: "Taylor Swift", nombre: "Taylor Alison Swift", nacimiento: "13 de diciembre de 1989 (32 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora, productora, actriz, directora, diseñadora, empresaria, modelo", seudo: "Nils Sjöberg", genero: "Pop, country, rock alterntivo, country pop, folk pop, electropop", instrumentos: "Guitarra, banjo, piano, voz, ukelele", edad: "32 años", icon: "taylorswift", canciones: cancion12))
+        artistas.append(Artista(nombretitulo: "Taylor Swift", nombre: "Taylor Alison Swift", nacimiento: "13 de diciembre de 1989 (32 años)", nacionalidad: "Estadounidense", ocupacion: "Cantautora, productora, actriz, directora, diseñadora, empresaria, modelo", seudo: "Nils Sjöberg", genero: "Pop, country, rock alterntivo, country pop, folk pop, electropop", instrumentos: "Guitarra, banjo, piano, voz, ukelele", edad: "32 años", icon: "taylorswift", foto: "taylorswift", canciones: cancion12))
         
-        artistas.append(Artista(nombretitulo: "Halsey", nombre: "Ashley Nicolette Frangipane", nacimiento: "29 de septiembre de 1994 (28 años)", nacionalidad: "Estadounidense", ocupacion: "Compositora, cantante, activista, directora, actriz", seudo: "Halsey", genero: "Pop, indie pop, electropop, R&B, alternativa", instrumentos: "Voz, guitarra, guitarra eléctrica", edad: "28 años", icon: "halsey", canciones: cancion13))
+        artistas.append(Artista(nombretitulo: "Halsey", nombre: "Ashley Nicolette Frangipane", nacimiento: "29 de septiembre de 1994 (28 años)", nacionalidad: "Estadounidense", ocupacion: "Compositora, cantante, activista, directora, actriz", seudo: "Halsey", genero: "Pop, indie pop, electropop, R&B, alternativa", instrumentos: "Voz, guitarra, guitarra eléctrica", edad: "28 años", icon: "halsey", foto: "halsey", canciones: cancion13))
         
-        artistas.append(Artista(nombretitulo: "Miley Cyrus", nombre: "Miley Ray Cyrus", nacimiento: "23 de noviembre de 1992 (29 años)", nacionalidad: "Estadounidense", ocupacion: "Cantante, compositora, actriz y productora discográfica", seudo: "Miley Cyrus", genero: "Pop, rock,dance, pop rock y country", instrumentos: "Voz, guitarra, piano", edad: "29 años", icon: "mileycyrus", canciones: cancion14))
+        artistas.append(Artista(nombretitulo: "Miley Cyrus", nombre: "Miley Ray Cyrus", nacimiento: "23 de noviembre de 1992 (29 años)", nacionalidad: "Estadounidense", ocupacion: "Cantante, compositora, actriz y productora discográfica", seudo: "Miley Cyrus", genero: "Pop, rock,dance, pop rock y country", instrumentos: "Voz, guitarra, piano", edad: "29 años", icon: "mileycyrus", foto: "mileycyrus", canciones: cancion14))
         
-        artistas.append(Artista(nombretitulo: "Lana del Rey", nombre: "Elizabeth Woolridge Grant", nacimiento: "Elizabeth Woolridge Grant", nacionalidad: "Estadounidense", ocupacion: "Cantante, compositora, modelo", seudo: "Lana del Rey", genero: "Indie pop, pop barroco, trip hop, Sadcore, dream pop e indie rock", instrumentos: "Voz, guitarra, teclado, piano", edad: "37 años", icon: "lanadelrey",canciones: cancion15))
+        artistas.append(Artista(nombretitulo: "Lana del Rey", nombre: "Elizabeth Woolridge Grant", nacimiento: "Elizabeth Woolridge Grant", nacionalidad: "Estadounidense", ocupacion: "Cantante, compositora, modelo", seudo: "Lana del Rey", genero: "Indie pop, pop barroco, trip hop, Sadcore, dream pop e indie rock", instrumentos: "Voz, guitarra, teclado, piano", edad: "37 años", icon: "lanadelrey", foto: "lanadelrey",canciones: cancion15))
         
     }
     
