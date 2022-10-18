@@ -21,7 +21,7 @@ class Artista {
     var canciones : [Cancion]
     
     init(nombretitulo: String,nombre: String, nacimiento: String, nacionalidad: String, ocupacion : String, seudo : String,  genero: String, instrumentos: String, edad: String, icon: String, canciones: [Cancion]){
-    self.nombretitulo = nombre
+    self.nombretitulo = nombretitulo
     self.nombre = nombre
     self.nacimiento = nacimiento
     self.nacionalidad = nacionalidad
