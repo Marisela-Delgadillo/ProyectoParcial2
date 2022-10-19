@@ -51,7 +51,7 @@ class DetallesArtista : UIViewController, UITableViewDelegate, UITableViewDataSo
         super.viewDidLoad()
         
         if artista != nil{
-            self.title = artista!.nombre
+            self.title = artista!.nombretitulo
             imgFoto.image = UIImage(named: artista!.foto)
             lblNombreTitulo.text = artista!.nombretitulo
             lblNombre.text = artista!.nombre

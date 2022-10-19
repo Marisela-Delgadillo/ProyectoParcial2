@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DACE6C229004D8D00258D6F /* Louis George Cafe Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6BB29004D8C00258D6F /* Louis George Cafe Light.ttf */; };
+		3DACE6C329004D8D00258D6F /* Louis George Cafe Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6BC29004D8C00258D6F /* Louis George Cafe Bold Italic.ttf */; };
+		3DACE6C429004D8D00258D6F /* Louis George Cafe Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6BD29004D8C00258D6F /* Louis George Cafe Bold.ttf */; };
+		3DACE6C529004D8D00258D6F /* Louis George Cafe.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6BE29004D8C00258D6F /* Louis George Cafe.ttf */; };
+		3DACE6C629004D8D00258D6F /* Louis George Cafe Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6BF29004D8C00258D6F /* Louis George Cafe Italic.ttf */; };
+		3DACE6C729004D8D00258D6F /* Louis George Café.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6C029004D8C00258D6F /* Louis George Café.png */; };
+		3DACE6C829004D8D00258D6F /* Louis George Cafe Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6C129004D8D00258D6F /* Louis George Cafe Light Italic.ttf */; };
+		3DACE6E0290050D100258D6F /* EastmanRomanTrial-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D22900501500258D6F /* EastmanRomanTrial-Black.otf */; };
+		3DACE6E1290050D100258D6F /* EastmanRomanTrial-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6CD2900501400258D6F /* EastmanRomanTrial-BlackItalic.otf */; };
+		3DACE6E2290050D100258D6F /* EastmanRomanTrial-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6DB2900501600258D6F /* EastmanRomanTrial-Bold.otf */; };
+		3DACE6E3290050D100258D6F /* EastmanRomanTrial-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6DF2900501600258D6F /* EastmanRomanTrial-BoldItalic.otf */; };
+		3DACE6E4290050D100258D6F /* EastmanRomanTrial-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6DD2900501600258D6F /* EastmanRomanTrial-DemiBold.otf */; };
+		3DACE6E5290050D100258D6F /* EastmanRomanTrial-DemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6CF2900501500258D6F /* EastmanRomanTrial-DemiBoldItalic.otf */; };
+		3DACE6E6290050D100258D6F /* EastmanRomanTrial-Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6DE2900501600258D6F /* EastmanRomanTrial-Extrabold.otf */; };
+		3DACE6E7290050D100258D6F /* EastmanRomanTrial-ExtraboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D42900501500258D6F /* EastmanRomanTrial-ExtraboldItalic.otf */; };
+		3DACE6E8290050D100258D6F /* EastmanRomanTrial-Extralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D32900501500258D6F /* EastmanRomanTrial-Extralight.otf */; };
+		3DACE6E9290050D100258D6F /* EastmanRomanTrial-ExtralightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6CE2900501400258D6F /* EastmanRomanTrial-ExtralightItalic.otf */; };
+		3DACE6EA290050D100258D6F /* EastmanRomanTrial-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D52900501500258D6F /* EastmanRomanTrial-Heavy.otf */; };
+		3DACE6EB290050D100258D6F /* EastmanRomanTrial-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D62900501500258D6F /* EastmanRomanTrial-HeavyItalic.otf */; };
+		3DACE6EC290050D100258D6F /* EastmanRomanTrial-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D72900501500258D6F /* EastmanRomanTrial-Italic.otf */; };
+		3DACE6ED290050D100258D6F /* EastmanRomanTrial-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D92900501500258D6F /* EastmanRomanTrial-Light.otf */; };
+		3DACE6EE290050D100258D6F /* EastmanRomanTrial-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D12900501500258D6F /* EastmanRomanTrial-LightItalic.otf */; };
+		3DACE6EF290050D100258D6F /* EastmanRomanTrial-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6CA2900501400258D6F /* EastmanRomanTrial-Medium.otf */; };
+		3DACE6F0290050D100258D6F /* EastmanRomanTrial-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D82900501500258D6F /* EastmanRomanTrial-MediumItalic.otf */; };
+		3DACE6F1290050D100258D6F /* EastmanRomanTrial-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6CB2900501400258D6F /* EastmanRomanTrial-Regular.otf */; };
+		3DACE6F2290050D100258D6F /* EastmanRomanTrial-RegularOffset.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6DC2900501600258D6F /* EastmanRomanTrial-RegularOffset.otf */; };
+		3DACE6F3290050D100258D6F /* EastmanRomanTrial-RegularOffsetItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6CC2900501400258D6F /* EastmanRomanTrial-RegularOffsetItalic.otf */; };
+		3DACE6F4290050D100258D6F /* EastmanRomanTrial-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6DA2900501500258D6F /* EastmanRomanTrial-Thin.otf */; };
+		3DACE6F5290050D100258D6F /* EastmanRomanTrial-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6D02900501500258D6F /* EastmanRomanTrial-ThinItalic.otf */; };
+		3DACE6F6290050D100258D6F /* Provicali.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3DACE6C929004DA000258D6F /* Provicali.otf */; };
 		3DC0C2E928EC8E24006F1CCE /* ArtistasController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0C2E828EC8E24006F1CCE /* ArtistasController.swift */; };
 		3DC0C2EB28EC8FE5006F1CCE /* Artista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0C2EA28EC8FE5006F1CCE /* Artista.swift */; };
 		3DC0C2ED28EC9268006F1CCE /* CeldaArtistaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0C2EC28EC9268006F1CCE /* CeldaArtistaController.swift */; };
@@ -40,6 +70,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DACE6BB29004D8C00258D6F /* Louis George Cafe Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Louis George Cafe Light.ttf"; path = "../../../Downloads/louis_george_caf/Louis George Cafe Light.ttf"; sourceTree = "<group>"; };
+		3DACE6BC29004D8C00258D6F /* Louis George Cafe Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Louis George Cafe Bold Italic.ttf"; path = "../../../Downloads/louis_george_caf/Louis George Cafe Bold Italic.ttf"; sourceTree = "<group>"; };
+		3DACE6BD29004D8C00258D6F /* Louis George Cafe Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Louis George Cafe Bold.ttf"; path = "../../../Downloads/louis_george_caf/Louis George Cafe Bold.ttf"; sourceTree = "<group>"; };
+		3DACE6BE29004D8C00258D6F /* Louis George Cafe.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Louis George Cafe.ttf"; path = "../../../Downloads/louis_george_caf/Louis George Cafe.ttf"; sourceTree = "<group>"; };
+		3DACE6BF29004D8C00258D6F /* Louis George Cafe Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Louis George Cafe Italic.ttf"; path = "../../../Downloads/louis_george_caf/Louis George Cafe Italic.ttf"; sourceTree = "<group>"; };
+		3DACE6C029004D8C00258D6F /* Louis George Café.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Louis George Café.png"; path = "../../../Downloads/louis_george_caf/Louis George Café.png"; sourceTree = "<group>"; };
+		3DACE6C129004D8D00258D6F /* Louis George Cafe Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Louis George Cafe Light Italic.ttf"; path = "../../../Downloads/louis_george_caf/Louis George Cafe Light Italic.ttf"; sourceTree = "<group>"; };
+		3DACE6C929004DA000258D6F /* Provicali.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Provicali.otf; path = ../../../Downloads/provicali/Provicali.otf; sourceTree = "<group>"; };
+		3DACE6CA2900501400258D6F /* EastmanRomanTrial-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Medium.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Medium.otf"; sourceTree = "<group>"; };
+		3DACE6CB2900501400258D6F /* EastmanRomanTrial-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Regular.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Regular.otf"; sourceTree = "<group>"; };
+		3DACE6CC2900501400258D6F /* EastmanRomanTrial-RegularOffsetItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-RegularOffsetItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-RegularOffsetItalic.otf"; sourceTree = "<group>"; };
+		3DACE6CD2900501400258D6F /* EastmanRomanTrial-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-BlackItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-BlackItalic.otf"; sourceTree = "<group>"; };
+		3DACE6CE2900501400258D6F /* EastmanRomanTrial-ExtralightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-ExtralightItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-ExtralightItalic.otf"; sourceTree = "<group>"; };
+		3DACE6CF2900501500258D6F /* EastmanRomanTrial-DemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-DemiBoldItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-DemiBoldItalic.otf"; sourceTree = "<group>"; };
+		3DACE6D02900501500258D6F /* EastmanRomanTrial-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-ThinItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-ThinItalic.otf"; sourceTree = "<group>"; };
+		3DACE6D12900501500258D6F /* EastmanRomanTrial-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-LightItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-LightItalic.otf"; sourceTree = "<group>"; };
+		3DACE6D22900501500258D6F /* EastmanRomanTrial-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Black.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Black.otf"; sourceTree = "<group>"; };
+		3DACE6D32900501500258D6F /* EastmanRomanTrial-Extralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Extralight.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Extralight.otf"; sourceTree = "<group>"; };
+		3DACE6D42900501500258D6F /* EastmanRomanTrial-ExtraboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-ExtraboldItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-ExtraboldItalic.otf"; sourceTree = "<group>"; };
+		3DACE6D52900501500258D6F /* EastmanRomanTrial-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Heavy.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Heavy.otf"; sourceTree = "<group>"; };
+		3DACE6D62900501500258D6F /* EastmanRomanTrial-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-HeavyItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-HeavyItalic.otf"; sourceTree = "<group>"; };
+		3DACE6D72900501500258D6F /* EastmanRomanTrial-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Italic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Italic.otf"; sourceTree = "<group>"; };
+		3DACE6D82900501500258D6F /* EastmanRomanTrial-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-MediumItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-MediumItalic.otf"; sourceTree = "<group>"; };
+		3DACE6D92900501500258D6F /* EastmanRomanTrial-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Light.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Light.otf"; sourceTree = "<group>"; };
+		3DACE6DA2900501500258D6F /* EastmanRomanTrial-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Thin.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Thin.otf"; sourceTree = "<group>"; };
+		3DACE6DB2900501600258D6F /* EastmanRomanTrial-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Bold.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Bold.otf"; sourceTree = "<group>"; };
+		3DACE6DC2900501600258D6F /* EastmanRomanTrial-RegularOffset.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-RegularOffset.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-RegularOffset.otf"; sourceTree = "<group>"; };
+		3DACE6DD2900501600258D6F /* EastmanRomanTrial-DemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-DemiBold.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-DemiBold.otf"; sourceTree = "<group>"; };
+		3DACE6DE2900501600258D6F /* EastmanRomanTrial-Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-Extrabold.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-Extrabold.otf"; sourceTree = "<group>"; };
+		3DACE6DF2900501600258D6F /* EastmanRomanTrial-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "EastmanRomanTrial-BoldItalic.otf"; path = "../../../Downloads/eastman/EastmanRomanTrial-BoldItalic.otf"; sourceTree = "<group>"; };
 		3DC0C2E828EC8E24006F1CCE /* ArtistasController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistasController.swift; sourceTree = "<group>"; };
 		3DC0C2EA28EC8FE5006F1CCE /* Artista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artista.swift; sourceTree = "<group>"; };
 		3DC0C2EC28EC9268006F1CCE /* CeldaArtistaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaArtistaController.swift; sourceTree = "<group>"; };
@@ -109,6 +169,36 @@
 		3DC6B6FA28E5F32D00546296 /* ProyectoParcial2 */ = {
 			isa = PBXGroup;
 			children = (
+				3DACE6D22900501500258D6F /* EastmanRomanTrial-Black.otf */,
+				3DACE6CD2900501400258D6F /* EastmanRomanTrial-BlackItalic.otf */,
+				3DACE6DB2900501600258D6F /* EastmanRomanTrial-Bold.otf */,
+				3DACE6DF2900501600258D6F /* EastmanRomanTrial-BoldItalic.otf */,
+				3DACE6DD2900501600258D6F /* EastmanRomanTrial-DemiBold.otf */,
+				3DACE6CF2900501500258D6F /* EastmanRomanTrial-DemiBoldItalic.otf */,
+				3DACE6DE2900501600258D6F /* EastmanRomanTrial-Extrabold.otf */,
+				3DACE6D42900501500258D6F /* EastmanRomanTrial-ExtraboldItalic.otf */,
+				3DACE6D32900501500258D6F /* EastmanRomanTrial-Extralight.otf */,
+				3DACE6CE2900501400258D6F /* EastmanRomanTrial-ExtralightItalic.otf */,
+				3DACE6D52900501500258D6F /* EastmanRomanTrial-Heavy.otf */,
+				3DACE6D62900501500258D6F /* EastmanRomanTrial-HeavyItalic.otf */,
+				3DACE6D72900501500258D6F /* EastmanRomanTrial-Italic.otf */,
+				3DACE6D92900501500258D6F /* EastmanRomanTrial-Light.otf */,
+				3DACE6D12900501500258D6F /* EastmanRomanTrial-LightItalic.otf */,
+				3DACE6CA2900501400258D6F /* EastmanRomanTrial-Medium.otf */,
+				3DACE6D82900501500258D6F /* EastmanRomanTrial-MediumItalic.otf */,
+				3DACE6CB2900501400258D6F /* EastmanRomanTrial-Regular.otf */,
+				3DACE6DC2900501600258D6F /* EastmanRomanTrial-RegularOffset.otf */,
+				3DACE6CC2900501400258D6F /* EastmanRomanTrial-RegularOffsetItalic.otf */,
+				3DACE6DA2900501500258D6F /* EastmanRomanTrial-Thin.otf */,
+				3DACE6D02900501500258D6F /* EastmanRomanTrial-ThinItalic.otf */,
+				3DACE6C929004DA000258D6F /* Provicali.otf */,
+				3DACE6BC29004D8C00258D6F /* Louis George Cafe Bold Italic.ttf */,
+				3DACE6BD29004D8C00258D6F /* Louis George Cafe Bold.ttf */,
+				3DACE6BF29004D8C00258D6F /* Louis George Cafe Italic.ttf */,
+				3DACE6C129004D8D00258D6F /* Louis George Cafe Light Italic.ttf */,
+				3DACE6BB29004D8C00258D6F /* Louis George Cafe Light.ttf */,
+				3DACE6C029004D8C00258D6F /* Louis George Café.png */,
+				3DACE6BE29004D8C00258D6F /* Louis George Cafe.ttf */,
 				3DC6B6FB28E5F32D00546296 /* AppDelegate.swift */,
 				3DC6B6FD28E5F32D00546296 /* ViewController.swift */,
 				3DC6B6FF28E5F32D00546296 /* Main.storyboard */,
@@ -247,9 +337,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DACE6E5290050D100258D6F /* EastmanRomanTrial-DemiBoldItalic.otf in Resources */,
+				3DACE6ED290050D100258D6F /* EastmanRomanTrial-Light.otf in Resources */,
+				3DACE6EA290050D100258D6F /* EastmanRomanTrial-Heavy.otf in Resources */,
+				3DACE6EB290050D100258D6F /* EastmanRomanTrial-HeavyItalic.otf in Resources */,
+				3DACE6E3290050D100258D6F /* EastmanRomanTrial-BoldItalic.otf in Resources */,
+				3DACE6E0290050D100258D6F /* EastmanRomanTrial-Black.otf in Resources */,
+				3DACE6C529004D8D00258D6F /* Louis George Cafe.ttf in Resources */,
 				3DC6B70628E5F33700546296 /* LaunchScreen.storyboard in Resources */,
+				3DACE6C829004D8D00258D6F /* Louis George Cafe Light Italic.ttf in Resources */,
+				3DACE6F1290050D100258D6F /* EastmanRomanTrial-Regular.otf in Resources */,
+				3DACE6E6290050D100258D6F /* EastmanRomanTrial-Extrabold.otf in Resources */,
+				3DACE6F0290050D100258D6F /* EastmanRomanTrial-MediumItalic.otf in Resources */,
+				3DACE6C729004D8D00258D6F /* Louis George Café.png in Resources */,
+				3DACE6C629004D8D00258D6F /* Louis George Cafe Italic.ttf in Resources */,
+				3DACE6E1290050D100258D6F /* EastmanRomanTrial-BlackItalic.otf in Resources */,
+				3DACE6E9290050D100258D6F /* EastmanRomanTrial-ExtralightItalic.otf in Resources */,
+				3DACE6E2290050D100258D6F /* EastmanRomanTrial-Bold.otf in Resources */,
+				3DACE6E8290050D100258D6F /* EastmanRomanTrial-Extralight.otf in Resources */,
 				3DC6B70328E5F33700546296 /* Assets.xcassets in Resources */,
 				3DC6B70128E5F32D00546296 /* Main.storyboard in Resources */,
+				3DACE6F3290050D100258D6F /* EastmanRomanTrial-RegularOffsetItalic.otf in Resources */,
+				3DACE6F2290050D100258D6F /* EastmanRomanTrial-RegularOffset.otf in Resources */,
+				3DACE6EC290050D100258D6F /* EastmanRomanTrial-Italic.otf in Resources */,
+				3DACE6E4290050D100258D6F /* EastmanRomanTrial-DemiBold.otf in Resources */,
+				3DACE6F6290050D100258D6F /* Provicali.otf in Resources */,
+				3DACE6C229004D8D00258D6F /* Louis George Cafe Light.ttf in Resources */,
+				3DACE6F4290050D100258D6F /* EastmanRomanTrial-Thin.otf in Resources */,
+				3DACE6C329004D8D00258D6F /* Louis George Cafe Bold Italic.ttf in Resources */,
+				3DACE6E7290050D100258D6F /* EastmanRomanTrial-ExtraboldItalic.otf in Resources */,
+				3DACE6EF290050D100258D6F /* EastmanRomanTrial-Medium.otf in Resources */,
+				3DACE6EE290050D100258D6F /* EastmanRomanTrial-LightItalic.otf in Resources */,
+				3DACE6F5290050D100258D6F /* EastmanRomanTrial-ThinItalic.otf in Resources */,
+				3DACE6C429004D8D00258D6F /* Louis George Cafe Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
